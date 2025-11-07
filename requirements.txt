@@ -1,0 +1,6 @@
+flask
+opencv-python
+pygame
+tensorflow
+numpy
+scipy

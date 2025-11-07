@@ -1,0 +1,23 @@
+body {
+  background: #0e1111;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding-top: 30px;
+}
+h1 {
+  color: #00ff88;
+  margin-bottom: 20px;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+img {
+  border: 3px solid #00ff88;
+  border-radius: 10px;
+}
+.note {
+  margin-top: 15px;
+  color: #aaa;
+}

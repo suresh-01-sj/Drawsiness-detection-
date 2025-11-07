@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Drowsiness Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Drowsiness Detection</h1>
+  <div class="video-container">
+    <img src="{{ url_for('video_feed') }}" width="640" height="480" alt="Camera Feed">
+  </div>
+  <p class="note">Press <b>Q</b> in terminal to quit.</p>
+</body>
+</html>
